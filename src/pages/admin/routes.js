@@ -23,7 +23,7 @@ const routes = [
   {
     title: "Browse",
     // icon: <MdLibraryBooks className="icon" />,
-    path: "./admin/browse",
+    path: "/admin/browse",
     component: Browse
   },
   // {
@@ -35,25 +35,25 @@ const routes = [
   {
     title: "Favorites",
     // icon: <MdColorLens className="icon" />,
-    path: "./admin/favorites",
+    path: "/admin/favorites",
     component: Favorites
   },
   {
     title: "History",
     // icon: <MdSpeakerNotes className="icon" />,
-    path: "./admin/history",
+    path: "/admin/history",
     component: History
   },
   {
     title: "Payments",
     // icon: <MdGraphicEq className="icon" />,
-    path: "./admin/payments",
+    path: "/admin/payments",
     component: Payments
   },
   {
     title: "Account Settings",
     // icon: <MdGraphicEq className="icon" />,
-    path: "./admin/settings",
+    path: "/admin/settings",
     component: AccountSettings
   }
 ];

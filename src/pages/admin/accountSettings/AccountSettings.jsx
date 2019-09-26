@@ -1,11 +1,12 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
+import Layout from "../../../layout";
 
 export default class AccountSettings extends Component {
   render() {
     return (
-      <div>
-        Account Settings
-      </div>
-    )
+      <Layout>
+        <h2>Account Settings</h2>
+      </Layout>
+    );
   }
 }

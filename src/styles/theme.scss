@@ -1,12 +1,16 @@
 :root {
   --bg-color: #09121c;
-  --primary-blue: #3369FF;
-  --primary-red: #FF334B;
+  --primary-blue: #3369ff;
+  --primary-red: #ff334b;
   --white-color: #ffffff;
-  --inactive-grey: #898F97;
+  --inactive-grey: #898f97;
 
   // Borders
   --border-1px: 1px solid rgba(255, 255, 255, 0.15);
+
+  // Box Shadows
+  --blue-shadow: 0px 5px 50px rgba(51, 105, 255, 0.7);
+  --red-shadow: 0px 5px 50px rgba(255, 51, 75, 0.7);
 
   // Measurements
   --px-50: 50px;
@@ -25,8 +29,8 @@
   --flex: flex;
   --column: column;
   --row: row;
+  --align-center: center;
 
   // No Value
   --none: none;
-
 }

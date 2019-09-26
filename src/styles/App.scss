@@ -1,4 +1,26 @@
+// Dashboard Layout
+.db__container {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  grid-template-rows: 70px 1fr;
+  grid-template-areas:
+    "sidebar header"
+    "sidebar main"
+    "sidebar main";
+  height: 100vh;
+}
 
+.db__sidebar {
+  grid-area: sidebar;
+}
+
+.db__main {
+  grid-area: main;
+}
+
+.db__header {
+  grid-area: header;
+}
 
 .btn {
   // padding: 2em;
@@ -7,20 +29,25 @@
   cursor: pointer;
 }
 
-.btn--blue, .btn--red {
+// .link--btn{
+//   text-align: center;
+//   margin: auto;
+// }
+
+.btn--blue,
+.btn--red {
   width: 412px;
   height: 50px;
   border-radius: var(--px-50);
   color: var(--white-color);
 }
 
-.btn--blue{
+.btn--blue {
   background: var(--primary-blue);
+  box-shadow: var(--blue-shadow);
 }
 
-.btn--red{
+.btn--red {
   background: var(--primary-red);
+  box-shadow: var(--red-shadow);
 }
-
-
-
