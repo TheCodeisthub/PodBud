@@ -1,0 +1,32 @@
+:root {
+  --bg-color: #09121c;
+  --primary-blue: #3369FF;
+  --primary-red: #FF334B;
+  --white-color: #ffffff;
+  --inactive-grey: #898F97;
+
+  // Borders
+  --border-1px: 1px solid rgba(255, 255, 255, 0.15);
+
+  // Measurements
+  --px-50: 50px;
+
+  --vh-100: 100vh;
+
+  --pc-100: 100%;
+
+  // Background Resets
+  --no-repeat: no-repeat;
+  --center-X-Y: center center;
+  --cover: cover;
+  --contain: contain;
+
+  // Displays
+  --flex: flex;
+  --column: column;
+  --row: row;
+
+  // No Value
+  --none: none;
+
+}
