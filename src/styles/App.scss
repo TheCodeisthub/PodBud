@@ -1,3 +1,7 @@
+body {
+  background: var(--bg-color);
+}
+
 // Dashboard Layout
 .db__container {
   display: grid;
@@ -16,10 +20,26 @@
 
 .db__main {
   grid-area: main;
+  margin: 4em;
+  width: 90%;
 }
 
 .db__header {
   grid-area: header;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding-top: 2em;
+}
+
+// Avatars
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: var(--px-50);
+  object-fit: cover;
 }
 
 .btn {

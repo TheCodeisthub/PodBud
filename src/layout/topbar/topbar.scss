@@ -1,0 +1,42 @@
+.topbar--form {
+  & input {
+    width: 420px;
+    height: 45px;
+
+    padding: 2em;
+
+    /* BG Color */
+    background: #09121c;
+    border: 0.5px solid rgba(255, 255, 255, 0.15);
+    border-radius: 50px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+
+    color: #ced6e0;
+
+    outline: var(--none);
+
+    &:focus{
+    border: 0.5px solid var(--primary-red);
+    }
+
+    &::placeholder{
+      color: #ced6e0;
+    }
+  }
+}
+
+.notify {
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  right: 65px;
+  top: 37px;
+
+  background: #ff334b;
+  border: 2px solid #09121c;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
