@@ -1,9 +1,9 @@
-.card--container{
+.card--container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
-.podcast--card {
+.podcast--card-1 {
   width: 306px;
   height: 360px;
 
@@ -14,17 +14,41 @@
 
   box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.25);
   border-radius: 25px;
+}
+.card--content {
+  padding: 2em;
+}
+.play--btn--red {
+  width: 51px;
+  height: 51px;
+  background: var(--primary-red);
+  border-radius: var(--px-50);
+  position: relative;
+  top: 8em;
+}
 
-  .card--content {
-    padding: 2em;
-  }
+.podcast--card-2 {
+  width: 306px;
+  height: 360px;
 
-  .play--btn--red {
-    width: 51px;
-    height: 51px;
-    background: var(--primary-red);
-    border-radius: var(--px-50);
-    position: relative;
-    top: 8em;
-  }
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    linear-gradient(90deg, rgba(9, 18, 28, 0.8) -2.61%, rgba(9, 18, 28, 0) 100%),
+    url("../../../images/img2.png") var(--no-repeat);
+  /* Card Shadow */
+
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+
+.podcast--card-3 {
+  width: 306px;
+  height: 360px;
+
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    linear-gradient(90deg, rgba(9, 18, 28, 0.8) -2.61%, rgba(9, 18, 28, 0) 100%),
+    url("../../../images/img3.png") var(--no-repeat);
+  /* Card Shadow */
+
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
 }
