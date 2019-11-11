@@ -1,6 +1,6 @@
 import React from "react";
 
-import Sidebar from "./sidebar";
+import Sidebar from "./sidebar/SideBar.jsx";
 import Topbar from "./topbar";
 
 export default class Layout extends React.Component {
