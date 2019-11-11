@@ -7,7 +7,7 @@
 
     /* BG Color */
     background: #09121c;
-    border: 0.5px solid rgba(255, 255, 255, 0.15);
+    border: 0.8px solid rgba(255, 255, 255, 0.15);
     border-radius: 50px;
 
     font-style: normal;
@@ -18,11 +18,13 @@
 
     outline: var(--none);
 
-    &:focus{
-    border: 0.5px solid var(--primary-red);
+    transition: 0.2s ease-in-out;
+
+    &:focus {
+      border: 1px solid var(--primary-red);
     }
 
-    &::placeholder{
+    &::placeholder {
       color: #ced6e0;
     }
   }
